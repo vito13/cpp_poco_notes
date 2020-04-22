@@ -1,1 +1,38 @@
 http://poco.roundsquare.net/zip-downloads/
+
+
+
+
+https://blog.csdn.net/duxingheiying1041/article/details/90550531
+github windows 上传本地文件到远程仓库
+
+
+第一种操作方式： （这种方式是从git官网看到，然后修改了一下的一种方法）
+
+第一次从本地上传代码到服务器
+首先要在远程上面创建一个对应的仓库比如Engeer
+然后顺序操作下边流程代码：
+
+    echo "# Engeer" >> README.md
+    git init
+    git add README.md
+    git add .
+    git commit -m "first commit"
+    git remote add origin https://github.com/duxingheiying/Engeer.git
+    git push -u origin master  
+
+
+第二种方法：（一位网友做的，供大家分享使用）
+
+    touch README.md
+    git init
+    git add README.md
+    git add .
+    git commit -m "first commit"
+    git remote add origin https://github.com/duxingheiying/Engeer.git
+    git push -u origin master
+
+官网给出的参看方法还有（具体没试）
+
+    git remote add origin https://github.com/duxingheiying/Engeer.git
+    git push -u origin master 
