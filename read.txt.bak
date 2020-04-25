@@ -29,10 +29,10 @@ github windows 上传本地文件到远程仓库
     git add README.md
     git add .
     git commit -m "first commit"
-    git remote add origin https://github.com/duxingheiying/Engeer.git
+    git remote add origin https://github.com/vito13/cpp_poco_notes.git
     git push -u origin master
 
 官网给出的参看方法还有（具体没试）
 
-    git remote add origin https://github.com/duxingheiying/Engeer.git
+    git remote add origin https://github.com/vito13/cpp_poco_notes.git
     git push -u origin master 
