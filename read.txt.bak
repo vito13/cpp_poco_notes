@@ -1,25 +1,24 @@
-TortoiseGit�ϴ���Ŀ���뵽github���������򵥣�
+TortoiseGit上传项目代码到github方法（超简单）
 https://www.cnblogs.com/hjvsdr/p/7152141.html
-
-
-代码案例网站
-https://cpp.hotexamples.com
-
-
-
-http://poco.roundsquare.net/zip-downloads/
-https://blog.csdn.net/arau_sh/category_9261422.html
-
-1111111
-
+github windows 上传本地文件到远程仓库
 https://blog.csdn.net/duxingheiying1041/article/details/90550531
-github windows �ϴ������ļ���Զ�ֿ̲�
-/////////////////////////////////
-
-    touch README.md
+--------------
+ touch README.md
     git init
     git add README.md
     git add .
     git commit -m "first commit"
     git remote add origin https://github.com/vito13/cpp_poco_notes.git
     git push -u origin master
+------------------
+
+
+
+
+代码案例网站
+https://cpp.hotexamples.com
+http://poco.roundsquare.net/zip-downloads/
+https://blog.csdn.net/arau_sh/category_9261422.html
+http://www.voidcn.com/article/p-oluiclss-kx.html
+ 
+   
