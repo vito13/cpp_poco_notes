@@ -1,5 +1,5 @@
 # c-poco-notes
-c++ poco notes
+c++ poco 笔记与代码案例
 # 目录
 ## 已完成文档
 0. 总览
@@ -10,6 +10,7 @@ c++ poco notes
 5. 线程
 6. 通知与事件
 7. URI与UUID
+8. 流
 
 ## 不完整文档
 其余都不完整
